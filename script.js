@@ -11,8 +11,9 @@ main.addEventListener("click" , () =>{
     console.log("div clicked");
 } , true)
 
-p1.addEventListener("click"  , () => {
+p1.addEventListener("click"  , (e) => {
     console.log("paragraph clicked");
+    e.stopPropagation()
 } , true)
 
 //eventListner ke andar true value top se capture krti hai
