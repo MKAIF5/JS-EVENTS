@@ -19,3 +19,4 @@ p1.addEventListener("click"  , (e) => {
 //eventListner ke andar true value top se capture krti hai
 //aur false ki value bottom se capture krti hai
 
+//events practice delay due to match
