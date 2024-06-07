@@ -20,3 +20,16 @@ p1.addEventListener("click"  , (e) => {
 //aur false ki value bottom se capture krti hai
 
 //events practice delay due to match
+
+
+
+//loop topic solution
+
+let count = 0
+
+for(i=0; i<=10; i++){
+  let count  = 0
+  count += i
+}
+
+console.log(i);
